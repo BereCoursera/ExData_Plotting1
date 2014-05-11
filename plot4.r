@@ -30,7 +30,7 @@ lines(data$Sub_metering_3+2,col="blue")
 axis(1,at=c(0,1500,2900),lab=c("Thu", "Fri" ,"Sat"),cex.axis=0.75)
 axis(2,at=c(2,10,20,30),lab=c("0", "10" ,"20","30"),cex.axis=0.5)
 legend(1910,42,c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1),
-       lwd=c(2.5,2.5),col=c("black","blue","red"),cex=0.5) 
+       lwd=c(2.5,2.5),col=c("black","red","blue"),cex=0.5) 
 
 # plot 4 
 plot(data$Global_reactive_power,type="l",ax=F, frame.plot=T, ylab="Global_reactive_power", xlab="datetime",cex=0.25)
